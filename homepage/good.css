@@ -123,3 +123,9 @@ a.link {
     font-size: 2rem;
     margin:45vw;
 }
+
+a:hover {
+    color: #36322f4e;
+    text-shadow: none;
+    transition: all ease-in-out 0.35s;
+}

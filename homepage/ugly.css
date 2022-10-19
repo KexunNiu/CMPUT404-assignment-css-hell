@@ -1,0 +1,77 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header {
+    z-index: -1;
+    position:relative;
+    width:100vw;
+    height:28vh;
+    background-image: linear-gradient(90deg,rgb(44, 221, 245), rgb(222, 148, 21))
+}
+
+header h1{
+    color:brown;
+}
+
+main {
+    z-index: 1;
+}
+
+img {
+    margin:5vh 45vw;
+    width:15vw;
+    height:20vw;
+    border-radius: 50%;
+    transform: rotate(30deg);
+    border: 2px double green;
+}
+
+div.portrait {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    background-image: linear-gradient(-90deg,rgb(255, 161, 161),rgb(20, 189, 77));
+}
+
+p.intro {
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    transform:rotate(50deg);
+}
+
+button {
+    width:40vw;
+    height:20vh;
+    background-color: aqua;
+}
+
+div.skills {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    background-color:rgb(0, 22, 168);
+}
+div.experience{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    background-color:yellowgreen;
+}
+
+.langs,.detail {
+    font-size: 2rem;
+    color:rgb(222, 148, 21);
+}
+
+ul {
+    margin:20vh 20vh;
+    transform: rotate(45deg);
+    list-style-type: none;
+}

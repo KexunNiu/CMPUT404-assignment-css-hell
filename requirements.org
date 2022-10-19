@@ -28,15 +28,15 @@
 
 *** Requirements
 
-    - [ ] Theme paragraphs with CSS
-    - [ ] Theme header tags with CSS
-    - [ ] Theme images and images captions with CSS
-    - [ ] Change the colour scheme to something aesthetically pleasing
-    - [ ] Apply 1 CSS file to 3 gutenberg documents.
-    - [ ] Include all 3 gutenberg documents HTML and assets, with the CSS applied.
-    - [ ] document in your README what modifications you had to make
+    - [1] Theme paragraphs with CSS
+    - [1] Theme header tags with CSS
+    - [1] Theme images and images captions with CSS
+    - [1] Change the colour scheme to something aesthetically pleasing
+    - [1] Apply 1 CSS file to 3 gutenberg documents.
+    - [1] Include all 3 gutenberg documents HTML and assets, with the CSS applied.
+    - [1] document in your README what modifications you had to make
       to the project gutenberg HTML files.
-    - [ ] Take 3 screenshots of firefox running all of your pages that
+    - [1] Take 3 screenshots of firefox running all of your pages that
       demonstrates your theme.
 
 ** Part II 
@@ -67,21 +67,21 @@
 
 *** Requirements
 
-    - [ ] 4 sections: who you are, your history, what you have to
+    - [1] 4 sections: who you are, your history, what you have to
       offer, important points about you
     - [ ] 1 Ugly CSS theme
-    - [ ] 1 good CSS theme
+    - [1] 1 good CSS theme
     - [ ] Ugly theme has to be noticeabley different.
-    - [ ] 2 HTML files, each with the same content but different CSS
-    - [ ] your photo (try to keep it professional)
+    - [1] 2 HTML files, each with the same content but different CSS
+    - [1] your photo (try to keep it professional)
     - [ ] Take 2 screenshots of firefox running all of your pages that
       demonstrates your theme.
-    - [ ] Ensure that files are appropriately named and CASE SENSITIVE.
-    - [ ] homepage/good.html should host your good page
+    - [1] Ensure that files are appropriately named and CASE SENSITIVE.
+    - [1] homepage/good.html should host your good page
     - [ ] homepage/ugly.html should host your ugly page
-    - [ ] gutenberg/1.html should host your first gutenberg book
-    - [ ] gutenberg/2.html should host your second gutenberg book
-    - [ ] gutenberg/3.html should host your third gutenberg book
+    - [1] gutenberg/1.html should host your first gutenberg book
+    - [1] gutenberg/2.html should host your second gutenberg book
+    - [1] gutenberg/3.html should host your third gutenberg book
     - [ ] screenshots good.png, bad.png, gutenberg1.png, gutenberg2.png, gutenberg3.png should be in the root of the project.
 
 ** Restrictions

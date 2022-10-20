@@ -21,6 +21,7 @@ body {
 
 a {
     text-decoration: none;
+    transition: all 0.35s;
 }
 
 header,main,footer{
@@ -60,6 +61,7 @@ div.portrait {
     width:17vw;
     height:20vw;
     border-radius: 50%;
+    transition:all 0.2s;
 }
 
 p.intro {
@@ -71,13 +73,15 @@ p.intro {
 }
 
 main div button {
-    width:10vw;
-    height:5vh;
+    width:fit-content;
+    height:fit-content;
     cursor: pointer;
+    padding:1em 2em;
     border: 2px solid #43bbdc;
     background-color: #00000000;
     border-radius: 1rem;
     margin: 2vh 10vw;
+    transition:all 0.2s;
 }
 
 main div button a {
@@ -133,7 +137,6 @@ footer {
 
 a.link {
     color: #ffffff;
-    font-size: 2rem;
     margin:45vw;
 }
 
@@ -143,12 +146,11 @@ a.project {
 
 a:hover {
     color: #fffefd9f;
-    transition: all ease-in-out 0.35s;
+    font-size: 2.2vw;
 }
 
 main div button:hover {
-    transform:scale(1.2);
-    transition:all 0.2s ease-in-out;
+    transform:scale(1.1);
 }
 
 @keyframes floating {

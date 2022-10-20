@@ -78,7 +78,6 @@ main div button {
     background-color: #00000000;
     border-radius: 1rem;
     margin: 2vh 10vw;
-    
 }
 
 main div button a {
@@ -147,12 +146,19 @@ a:hover {
     transition: all ease-in-out 0.35s;
 }
 
+main div button:hover {
+    transform:scale(1.2);
+    transition:all 0.2s ease-in-out;
+}
+
 @keyframes floating {
     0% {
         transform: translateY(-1%);
+        filter:blur(10px);
     }
 
-    5% {
+    20% {
         transform: translateY(-1%);
+        filter:blur(0px);
     }
 }
